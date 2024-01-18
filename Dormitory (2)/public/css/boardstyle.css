@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_list_wrap {
+    padding: 50px;
+}
+
+.board_list {
+    width: 100%;
+    border-top: 2px solid green;
+}
+
+.board_list tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.board_list th,
+.board_list td {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.board_list td {
+    text-align: center;
+}
+
+.board_list .tit {
+    text-align: left;
+}
+
+.board_list .tit:hover {
+    text-decoration: underline;
+}
+
+.board_list_wrap .paging {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0;
+}
+.board_list_wrap .paging a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 100px;
+    font-size: 12px;
+}
+.board_list_wrap .paging a:first-child {
+    margin-left: 0;
+}
+
+.board_list_wrap .paging a.bt {
+    border: 1px solid #eee;
+    background: #eee;
+}
+
+.board_list_wrap .paging a.num {
+    border: 1px solid green;
+    font-weight: 600;
+    color: green;
+}
+
+.board_list_wrap .paging a.num.on {
+    background: green;
+    color: #fff;
+}
+.green-button {
+    background-color: #2ecc71; /* 짙은 녹색 배경색 */
+    color: #fff; /* 텍스트 색상을 흰색으로 설정 */
+    padding: 10px 20px; /* 안쪽 여백 설정 */
+    font-size: 16px; /* 글꼴 크기 설정 */
+    border: none; /* 테두리 제거 */
+    border-radius: 5px; /* 모서리를 둥글게 만듦 */
+    cursor: pointer; /* 커서를 포인터로 변경하여 클릭 가능한 상태로 표시 */
+  }
